@@ -1,15 +1,17 @@
 // https://github.com/telegramdesktop/tdesktop/tree/dev/Telegram/SourceFiles/mtproto/scheme
 
-boolFalse#bc799737 = Bool;
-boolTrue#997275b5 = Bool;
+---types---
 
-true#3fedd339 = True;
+// boolFalse#bc799737 = Bool;  // Parsed manually
+// boolTrue#997275b5 = Bool;  // Parsed manually
 
-vector#1cb5c415 {t:Type} # [ t ] = Vector t;
+// true#3fedd339 = True;  // Not used
 
-error#c4b9f9bb code:int text:string = Error;
+// vector#1cb5c415 {t:Type} # [ t ] = Vector t;  // Parsed manually
 
-null#56730bcc = Null;
+// error#c4b9f9bb code:int text:string = Error;  // Not used
+
+// null#56730bcc = Null;  // Parsed manually
 
 inputPeerEmpty#7f3b18ea = InputPeer;
 inputPeerSelf#7da07ec9 = InputPeer;
