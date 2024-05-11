@@ -555,7 +555,7 @@ def start(format: bool = False):
         )
 
         directory = "types" if c.section == "types" else c.section
-
+        print(DESTINATION_PATH, directory, c.namespace, c.section)
         dir_path = DESTINATION_PATH / directory / c.namespace
 
         os.makedirs(dir_path, exist_ok=True)
